@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,15 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="o1y-ei-XNs">
-                                <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ilr-7e-GJg">
+                                <rect key="frame" x="113" y="258.5" width="149.5" height="150"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoname" translatesAutoresizingMaskIntoConstraints="NO" id="lfk-m5-enP">
+                                <rect key="frame" x="87.5" y="408.5" width="200" height="199.5"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="o1y-ei-XNs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1dI-ra-1EP"/>
-                            <constraint firstItem="o1y-ei-XNs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="E6v-wu-aEW"/>
+                            <constraint firstItem="lfk-m5-enP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0Zc-rD-3pa"/>
+                            <constraint firstItem="Ilr-7e-GJg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XbM-Zw-UgF"/>
+                            <constraint firstItem="Ilr-7e-GJg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bgo-OJ-BhM"/>
+                            <constraint firstItem="lfk-m5-enP" firstAttribute="top" secondItem="Ilr-7e-GJg" secondAttribute="bottom" id="s1X-9V-Rc5"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -35,9 +39,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="150.00033569335938" height="149.999755859375"/>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="logo" width="149.99984741210938" height="150.00018310546875"/>
+        <image name="logoname" width="200.00010681152344" height="199.99993896484375"/>
     </resources>
 </document>

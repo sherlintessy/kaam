@@ -5,9 +5,9 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="79.375099mm"
-   height="79.374916mm"
-   viewBox="0 0 79.375091 79.374916"
+   width="300.00037"
+   height="299.99969"
+   viewBox="0 0 79.375095 79.374921"
    version="1.1"
    id="svg8">
   <defs
@@ -34,14 +34,14 @@
   </metadata>
   <g
      id="layer1"
-     transform="translate(-272.73232,-215.86002)">
+     transform="translate(-67.540055,-101.44553)">
     <path
        d="m 88.505721,43.764115 -0.0065,0.0033 0.01155,0.01355 z"
        style="fill:#6a5e50;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0107904"
        id="path1811" />
     <g
        id="g2441"
-       transform="matrix(1.0000165,0,0,0.99992018,197.76806,128.79076)">
+       transform="matrix(1.0000165,0,0,0.99992024,-7.4242009,14.376269)">
       <g
          id="g1413"
          transform="matrix(0.9908056,0,0,1.0000154,2.8449294,-5.5951134)">
