@@ -5,7 +5,8 @@
  * @format
  * @flow strict-local
  */
-
+import 'react-native-splash-screen';
+import SplashScreen from 'react-native-splash-screen';
 import React from 'react';
 import {
   SafeAreaView,
@@ -111,4 +112,11 @@ const styles = StyleSheet.create({
   },
 });
 
+
+//export default class App extends Component {
+//  componentDidMount() {
+//    SplashScreen.hide()
+//  }
+//};
 export default App;
+SplashScreen.hide();
